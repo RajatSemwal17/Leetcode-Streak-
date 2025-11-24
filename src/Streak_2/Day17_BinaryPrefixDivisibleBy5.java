@@ -9,7 +9,7 @@ class Solution17{
         List<Boolean> list = new ArrayList<>();
         int value = 0;
         for(int i=0;i<nums.length;i++){
-            value = (value * 2 + nums[i]) % 5;
+            value = (value * 2 + nums[i]) % 5; // IMPORTANT FORMULA FOR THIS QUESTION.
             if(value == 0){
                 list.add(true);
             }
